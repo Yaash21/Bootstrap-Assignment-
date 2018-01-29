@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Profile</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="stylesheet"  href="css/bootstrap.min.css">
+		<link rel="stylesheet"  href="css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet"  href="css/main.css">
+		 
+	</head>	
+	<body>
+		<div class="navbar navbar-fixed-top navbar-inverse" >
+			<p class="navbar-text pull-right">Welcome to <a href="#" class="navbar-link">my Profile</a> !!</p>
+			<div class="container">	
+				<div class="navbar-header">
+					<button class="navbar-toggle collapsed pull-left" data-target=".navbar-collapse" data-toggle="collapse" type="button" aria-expanded="false">
+					<span class="glyphicon glyphicon-align-justify"></span>
+					</button>
+				</div> <!--end navbar header-->
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav">	
+						<li class="active">
+							<a href="#">Home</a>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">About Me<strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li><a href="#"><span class="glyphicon glyphicon-user"></span> Introduction</a></li>
+								<li><a href="#"> <span class="glyphicon glyphicon-education"></span> Academics</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-list"></span> Projects</a></li>
+								<li class="divider">
+								</li>
+								<li><a href="#"><span class="glyphicon glyphicon-file"></span>Download CV</a> 
+								</li>
+							</ul>
+						</li>	
+					</ul>
+					<form class="navbar-form " role="search">
+  						<div class="form-group">
+    						<input type="text" class="form-control" placeholder="Search">
+ 						</div>
+ 							 <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+					</form>
+				</div> <!--end navbar-collapse-->
+			</div>	<!--end conatiner-->
+		</div> <!--enc navbar-->
+		<div class="container">
+			<div class="carousel slide" id="mycarousel" data-ride="carousel">
+				<!--Indicators-->
+				<ol class="carousel-indicators">
+					<li class="active" data-slide-to="0" data-target="#mycarousel"></li>
+					<li data-slide-to="1" data-target="#mycarousel"></li>
+					<li data-slide-to="2" data-target="#mycarousel"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="item active" id="slide1">
+						<img src="img/pic1.v2.png" alt="image1" class="img-fluid images" >
+					</div> <!--end of slide1-->
+					<div class="item" id="slide2" >
+						<img src="img/pic2.v2.jpg" alt="image 2" class="img-fluid images" >
+					</div> <!--end of slide2-->
+					<div class="item" id="slide3">
+						<img src="img/pic3.jpg" alt="image 3" class="img-fluid images">
+					</div> <!--end of slide3-->
+				</div> <!--end of carousel inner-->			
+				<a class=" left carousel-control" data-slide="prev" href="#mycarousel"><span class="icon-prev"></span></a>
+				<a class=" right carousel-control" data-slide="next" href="#mycarousel"><span class="icon-next"></span></a>
+			</div><!--end of carousel-->
+		</div>	<!--end of conatiner-->
+		<div class="container">
+			<div class="row" id="bigcall">
+				<div class="col-12">
+					<div class="well well-small visible-xs">
+						<a href="#" class="btn btn-large btn-block btn-primary"><span class="glyphicon glyphicon-phone"></span> Give me  a call!!</a>
+					</div>
+					<div class="well">
+						<div class="page-header">
+							<h2> Abstract <small> My key objective.</small></h2>
+						</div>
+							<p class="lead"> “Where there is nothing, There are many things to do”</p>
+							 <p>Keeping this positive attitude and mindset, I have been working towards self-growth and devloping my skills in providing significant contribution to the success of my employer effectively. Willingness to work hard in a challenging environment with a purpose of growth, knowledge and creativity, in order to achieve organizational goals.</p>
+					 		<a href="#mymodal" role="button" class="btn btn-large btn-primary" data-toggle="modal"> <span class="glyphicon glyphicon-thumbs-up"></span> Endorse my skills ! </a>		
+					 			<div class="modal fade" id="mymodal">
+					 				<div class="modal-dialog">
+					 					<div class="modal-content">
+					 						<div class="modal-header ">
+					 							<button class="close" data-dismiss="modal"> &times;</button>
+					 							<h4 class="modal-title"> <span class="glyphicon glyphicon-thumbs-up"></span> Endorse my skills.</h4>   
+					 						</div> <!--end modal-header-->
+					 						<div class="modal-body">
+					 							<p> Your review will help me to enhance my skills and overcome the challenges.It will also be very vital in seeking new opportunities and devlop holistic knowledge.</p>
+					 							<hr>
+					 							<h5 class="text-muted"> P.S-Thanks for your vital time!!</h5>
+					 							<hr>
+					 							<form class="form-horizontal">
+					 								<div class="form-group">
+					 									<label for="inputName" class="col-sm-2 control-label" >Name</label>
+					 									<div class="col-sm-10">
+					 										<input  type="name" class="form-control" id="inputName" placeholder="Your Name">
+					 									</div>
+					 								</div>	
+					 								<div class="form-group">
+					 									<label class="col-sm-2 control-label" for="inputEmail">Email</label>
+					 									<div class="col-sm-10">
+					 										<input  class="form-control" id="inputEmail" placeholder="Your Email">
+					 									</div>
+					 								</div>	
+					 								<div class="form-group">
+					 									<label class="col-sm-2 control-label" for="inputMessage">Message</label> 	
+					 									<div class="col-sm-10">
+					 										<textarea class="form-control" id="inputMessage" placeholder="Message.." rows="2"></textarea>
+					 									</div>
+					 								</div>
+					 							</form>		
+					 						</div><!--end modal-body-->
+					 						<div class="modal-footer">
+					 							<button class="btn btn-primary" type="submit"> Submit</button>
+					 							<button class="btn btn-default" data-dismiss="modal" type="button"> Close</button>
+					 						</div>
+					 					</div><!--end modal content-->
+					 				</div><!--end modal-dialog-->
+					 			</div><!--end mymodal-->
+					 		<a href="#" class="btn btn-large btn-link"> know my skills ! </a>
+					</div><!-- end well-->
+				</div> <!--end col-12-->
+			</div>  <!--end bigcall-->
+		</div>  <!--endconatiner-->
+
+		<div class="container">
+			<div class="row" id="Overview">
+				<div class="col-12">
+					<h2>Overview</h2>
+					<p class="lead">"Have the courage to follow your heart and intution. They somehow know what you truly wants to become." </p>
+					<p class="pull-right lead"> - Steve Jobs</p>
+				</div>
+			</div><!--end of overview-->
+			<div class="rows" id="points">
+				<div class="col-lg-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title"> <strong>Skill Set</strong></h3>
+						</div>
+							<ul class="tech"> <h4><strong>Technical Skills</strong></h4>
+								<li>SQL</li>
+								<li>HTML5 and CSS3</li>
+								<li>Bootsrap 3</li>
+								<li>Knowledge of basic C</li>
+							</ul>
+							<hr>
+							<ul class="others"> <h4><strong>Others Skills</strong></h4>
+								<li>Good Communication Skills</li>
+								<li>Problem Solving Skills</li>
+								<li>Leadership Qualities</li>
+								<li>Organizational Skills</li>
+							</ul> 
+						<a href="#" class="btn btn-warning btn-block"> Know more about my skills.</a>
+					</div><!--end panel-->
+				</div><!--end col-4-->
+			</div><!--end of points-->
+			<div class="rows" id="points">
+				<div class="col-lg-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title"> <strong>Position of Responsibility</strong></h3><br/>
+						</div>
+							<ul>
+								<li><strong>General Secretary-Technical </strong>of NIT Agartala</li><br/>
+								<li><strong>Training and Placement Coordinator </strong> of the Mechanical Department, NIT Agartala</li><br/>
+								<li><strong>Lead</strong>the team of campus e-magzine of NIT Agartala</li><br/>
+								<li><strong>Management Head</strong> of NGO - WECAN</li><br/>
+								<li><strong>Convenor</strong> of NIT-A techno-cultural fest Advaitam-2016</li>
+							</ul>
+						<a href="#" class="btn btn-success btn-block"> Know more about my PORs.</a>
+					</div><!--end panel-->
+				</div><!--end col-4-->
+			</div><!--end of points-->
+			<div class="rows" id="points">
+				<div class="col-lg-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title"> <strong>Achievements</strong></h3><br/>
+						</div>
+							<ul>
+								<li><strong>Winner</strong>of Stealth at ASIMOV WEEK, NIT-A</li><br/>
+								<li><strong>Winner</strong>of Rubix Event at HBTI</li><br/>
+								<li><strong>3<sup>rd</sup> most voted team</strong>at national level social meet <strong>Manthan</strong></li><br/>
+								<li><strong>First Runner Up</strong> in dramatics at youth festival hosted by C.M.S Lucknow</li><br/>
+								<li><strong>Organised</strong> social event ANANYA at NIT-A</li><br/>
+							</ul>
+						<a href="#" class="btn btn-danger btn-block"> Know more about my achivements.</a>
+					</div><!--end panel-->
+				</div><!--end col-4-->	
+			</div><!--end of points-->
+		</div><!--end of conatiner-->
+		<footer>
+			<div class="container">
+				<div class="row" id="myfooter">
+					<div class="col-sm-2">
+						<h6> copyright &copy; 2018</h6>	
+					</div>
+					<div class="col-sm-6">
+						<h6>Follow me:</h6>
+						<ul class="icons">													<!--use of icons-->
+							<li><i class="fa fa-facebook-official fa-2x" aria-hidden="true" ></i></li>
+							<li><i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i></li>
+							<li><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></li>
+							<li><i class="fa fa-pinterest-square fa-2x" aria-hidden="true"></i></li>
+						</ul>
+					</div>
+					<div class="col-sm-2">
+						<h6>More Links:</h6>
+						<ul class="morelinks">
+							<li><a href="#"><span class="glyphicon glyphicon-folder-open"></span> Projects</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-briefcase"></span> Internship</a></li>
+							<li><a href="#"> <span class="glyphicon glyphicon-bullhorn"></span> Refrences</a></li>
+							<li><a href="#"> <span class="glyphicon glyphicon-save"></span> github </a></li>
+						</ul>
+					</div>
+					<div class="col-sm-2">
+						<h6>Coded with <span class="glyphicon glyphicon-heart"></span> by Yaash </h6>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script src="http://code.jquery.com/jquery.js"> </script>
+		<script type="text/javascript" src="js/bootstrap.min.js"> </script>
+		<script type="text/javascript" src="js/main.js">  </script>
+	</body>
+</html> 

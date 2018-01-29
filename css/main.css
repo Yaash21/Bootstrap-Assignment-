@@ -1,0 +1,78 @@
+.glyphicon-align-justify{
+	color: white;
+}
+.navbar-text{
+	padding-right: 20px;
+}
+
+#mycarousel{
+	margin-top: 60px;
+}
+
+
+.images{
+	width: 100%;
+}
+
+.well{
+	margin-top: 10px;
+}
+ .well .page-header{
+ 	margin-top: 0;
+ }
+ .well .page-header h2 {
+ 	margin-top: 0;
+ }
+ .panel .panel-heading .panel-title{
+ 	font-size:20px;
+ 	text-align: center;
+ 	border: solid 1px black;
+ 	border-radius: 15px;
+ 	color: #333;
+ 	
+ }
+ul.tech{
+	font-size: 13.5px;
+}
+ul.others{
+	font-size: 13.5px;
+}
+
+footer{
+	background: #333;
+	color: #eee;
+	font-size: 12px;
+	padding: 20px;
+}
+ul.morelinks{
+	list-style: none;
+	padding:0;
+}
+.col-sm-2 h6{
+	font-size: 14px;
+}
+.col-sm-6 h6{
+	font-size: 14px;
+	padding-left: 30px;
+}
+.icons li{
+    display: inline;
+    padding: 20px;
+
+}
+
+.fa-facebook-official{
+    color:white;
+}
+
+.fa-pinterest-square {
+    color: white;
+
+}
+
+.fa-google-plus-square{
+    color: white;
+}
+.fa-linkedin-square{
+    color: white;
+}
